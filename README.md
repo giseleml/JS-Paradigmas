@@ -64,7 +64,7 @@ Há três paradigmas diferentes de programação usados em JS.
 - Object-Oriented Programming
 - Functional-Oriented Programming
 
-O ES6 adiciou uma keyword class dedicada para OOP.  
+O ES6 adicionou uma keyword class dedicada para OOP.  
 
 # Criando classes com ES6
 Exemplo: 
