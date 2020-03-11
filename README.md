@@ -67,6 +67,7 @@ O ES6 adiciou uma keyword class dedicada para OOP.
 # Criando classes com ES6
 Exemplo: 
 
+<code>
 class Produto { 
     constructor(nome, preço) {
         this.nome = nome 
@@ -95,6 +96,6 @@ class Cesta {
         console.log("Total: " + this.calcTotal())
     }
 }
-
+</code>
 
 
