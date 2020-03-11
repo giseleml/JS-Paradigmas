@@ -125,9 +125,7 @@ Exemplo:
 function greaterThan(n) {
    return x => x > n;
 }
-
 let greaterThanTwo = greaterThan(2);
-
 console.log(greaterThanTwo(5));
 </code>
 
@@ -137,9 +135,7 @@ como um argumento e retornando um output.
 
 Exemplo: 
 <code>
-
 var compose = (f, g) => (x) => f(g(x));
-
 </code>
 
 
