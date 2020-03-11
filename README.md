@@ -100,11 +100,11 @@ class Cesta {
 }
 </code>
 
-############
+_______________________________________________________________________________________________________________________________
 
 > Functional Programming 
 
-# Funcional Programming
+# Functional Programming
 
 - Paradigma que foca a construção e estruturação do código usando funções; Essas funções recebem argumentos que 
 mostram um output baseado no input recebido por parâmetro, dado que o mesmo input sempre resulta no mesmo
