@@ -1,3 +1,5 @@
+> Object Oriented Programming 
+
 # OOP in JavaScript
 
 Uma aplicação é uma coleção de Objetos que se comunicam entre si. Esses Objetos são baseados em coisas do mundo real,
@@ -97,5 +99,49 @@ class Cesta {
     }
 }
 </code>
+
+############
+
+> Functional Programming 
+
+# Funcional Programming
+
+- Paradigma que foca a construção e estruturação do código usando funções; Essas funções recebem argumentos que 
+mostram um output baseado no input recebido por parâmetro, dado que o mesmo input sempre resulta no mesmo
+output. 
+
+- Não permite mutação ou compartilhamento de state; Funções devem permanecer puras e verdadeiras à suas
+expressões nesse paradigma. É declarativo, não imperativo.
+
+- Ao invés de mutar arrays adicionando/removendo dentro do escopo como OOP, funcional é puro, direto e não é mutado.
+
+# Caracteristicas
+
+- Funções são first-class citsizens: você pode sempre inserir funções dentro de outras funções sem restrição.
+- Funções high-order recebem uma função como argumento; Elas podem ou não retornar uma função como output. 
+
+Exemplo: 
+
+function greaterThan(n) {
+   return x => x > n;
+}
+
+let greaterThanTwo = greaterThan(2);
+
+console.log(greaterThanTwo(5));
+
+# Composição
+- Function Composition é o ato de compor/criar funções que permitem simplificar e comprimir suas funções recebendo funções
+como um argumento e retornando um output. 
+
+Exemplo: 
+
+var compose = (f, g) => (x) => f(g(x));
+
+# Benefícios
+- Não há efeitos colaterais no código
+- Reduz a probabilidade de bugs já que nada é alterado
+- Bugs são fáceis de encontrar já que esta dentro do escopo da função
+- Por ter funções puras, não emprestará informações de fora do seu escopo, só se importa com o que acontece dentro dele 
 
 
