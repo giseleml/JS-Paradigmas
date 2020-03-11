@@ -121,7 +121,7 @@ expressões nesse paradigma. É declarativo, não imperativo.
 - Funções high-order recebem uma função como argumento; Elas podem ou não retornar uma função como output. 
 
 Exemplo: 
-
+<code>
 function greaterThan(n) {
    return x => x > n;
 }
@@ -129,14 +129,19 @@ function greaterThan(n) {
 let greaterThanTwo = greaterThan(2);
 
 console.log(greaterThanTwo(5));
+</code>
 
 # Composição
 - Function Composition é o ato de compor/criar funções que permitem simplificar e comprimir suas funções recebendo funções
 como um argumento e retornando um output. 
 
 Exemplo: 
+<code>
 
 var compose = (f, g) => (x) => f(g(x));
+
+</code>
+
 
 # Benefícios
 - Não há efeitos colaterais no código
